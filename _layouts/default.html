@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset=utf-8 />
+        <title> {% if page.title %} {{ page.title }} | {% endif %} My New Place </title>
+        <link rel="stylesheet" href="/assets/css/styles.css" />
+    </head>
+    <body>
+        <div class="page">
+            <div class="header">
+                {% include header.html %}
+            </div>    
+            <div id="main">
+                {% include leftnav.html %}
+                <div class="content">
+                    {{ content }}
+                </div>
+            </div>
+            <div class="footer">
+                {% include footer.html %}
+            </div>           
+        </div>
+    </body>
+</html>
