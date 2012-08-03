@@ -10,7 +10,7 @@ body{
     min-width: 1160px;
 }
 #logo{
-	background: url("/assets/images/mc-leasestar-logo.png") no-repeat;
+	background: url("assets/images/mc-leasestar-logo.png") no-repeat;
 	display: inline-block;
 	height: 60px;
 	width: 203px;
