@@ -5,7 +5,14 @@ body{
 }
 .page {
     margin: auto;
-    background: white url(/images/gradient-background.png) repeat-x;
+    background: white url(assets/images/gradient-background.png) repeat-x;
     max-width: 1160px;
     min-width: 1160px;
+}
+#logo{
+	background: url("/assets/images/mc-leasestar-logo.png") no-repeat;
+	display: inline-block;
+	height: 60px;
+	width: 203px;
+	margin-left: .6em;
 }
